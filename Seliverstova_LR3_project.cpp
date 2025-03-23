@@ -4,7 +4,9 @@ using namespace std;
 
 void task1()
 {
-    //разрабатывается
+    int X = 0;
+    cout << "Введите натуральное число: ";
+    cin >> X;
 }
 
 void task2()
