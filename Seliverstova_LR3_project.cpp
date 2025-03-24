@@ -2,16 +2,23 @@
 #include <string>
 using namespace std;
 
+int X = 0;
+
 void task1()
 {
-    int X = 0;
     cout << "Введите натуральное число: ";
     cin >> X;
-}
+} 
 
 void task2()
 {
-    //разрабатывается
+    int max = 0;
+    while (X) {
+        if (X % 10 > max)
+            max = X % 10;
+        X /= 10;
+    }
+    cout << "Наибольшая цифра в записи числа X: " << max << endl;
 }
 
 void task3()
