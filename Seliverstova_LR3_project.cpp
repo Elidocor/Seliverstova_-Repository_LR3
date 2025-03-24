@@ -23,7 +23,13 @@ void task2()
 
 void task3()
 {
-    //разрабатывается
+    int min = 9;
+    while (X) {
+        if (X % 10 < min)
+            min = X % 10;
+        X /= 10;
+    }
+    cout << "Наименьшая цифра в записи числа X: " << mшт << endl;
 }
 
 int main()
